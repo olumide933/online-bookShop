@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-  const MONGODB_LIVE_URI = "mongodb+srv://olujide500:OjydtS5kPMli44sq@cluster0.ujzb8nq.mongodb.net/myBookshop?retryWrites=true&w=majority&appName=Cluster0";
+  const MONGODB_LIVE_URI = "mongodb+srv://olujide500:sDVOUtqA6ry55Vw5@cluster0.ujzb8nq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
   mongoose.connect(MONGODB_LIVE_URI)
   mongoose.connection.on("open",() =>{
