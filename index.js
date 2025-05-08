@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
  require("./config/db");
  const userRouter = require("./router/user.router");
  const storeRouter = require("./router/store.router");
@@ -6,7 +7,8 @@ const express = require("express");
 const app = express();
 const PORT =2030;
 
-app.use(express.json())
+app.use(express.json());
+app.use(cors());
 
 app.get("/", (req, res)=> {
     res.status(201).json({
