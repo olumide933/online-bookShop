@@ -18,6 +18,6 @@ app.use("/api/user", userRouter);
 app.use("/api/store", storeRouter);
 
 app.listen(PORT,() =>{
-   console.log("Server is up...");
+   console.log("Server is up and connected to port 2030...");
 });
 

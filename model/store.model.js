@@ -22,7 +22,8 @@ const bookShopSchema = new mongoose.Schema({
      {
         type: mongoose.Schema.Types.ObjectId,
         ref :"users"
-    }],
+    }
+        ],
     ISBN:{
             type: String,
         },
